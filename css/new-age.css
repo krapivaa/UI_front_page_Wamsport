@@ -448,6 +448,10 @@ section.cta.Wcover .overlay {
   }
 }
 
+header.mobCover {
+  padding: 70px 0;
+}
+
 section.balls {
   background-image: url("../img/balls.jpg");
 }
