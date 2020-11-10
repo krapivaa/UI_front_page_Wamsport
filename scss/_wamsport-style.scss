@@ -1,10 +1,20 @@
 
-section.Wcover {
+section.cta.Wcover {
     background-image: url('../img/cover3.jpg');
+    padding: 150px 0; 
     .overlay {
         background-color: fade-out(black, .6);
     }
 }
+
+@media(min-width: 992px) {
+   section.cta.Wcover {
+    padding: 250px 0;
+   }
+}
+
+
+
 
 section.balls {
     background-image: url('../img/balls.jpg');

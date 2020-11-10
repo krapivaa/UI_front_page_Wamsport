@@ -433,12 +433,19 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
-section.Wcover {
+section.cta.Wcover {
   background-image: url("../img/cover3.jpg");
+  padding: 150px 0;
 }
 
-section.Wcover .overlay {
+section.cta.Wcover .overlay {
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 992px) {
+  section.cta.Wcover {
+    padding: 250px 0;
+  }
 }
 
 section.balls {
