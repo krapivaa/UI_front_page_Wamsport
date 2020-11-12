@@ -1,6 +1,6 @@
 
 section.cta.Wcover {
-    background-image: url('../img/cover3.jpg');
+    background-image: url('../img/mobilecover.jpg');
     padding: 150px 0; 
     .overlay {
         background-color: fade-out(black, .6);
@@ -24,6 +24,7 @@ header.mobCover {
 
 section.balls {
     background-image: url('../img/balls.jpg');
+    background-position: center bottom;
 }
 
 

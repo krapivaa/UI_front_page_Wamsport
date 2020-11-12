@@ -434,7 +434,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 section.cta.Wcover {
-  background-image: url("../img/cover3.jpg");
+  background-image: url("../img/mobilecover.jpg");
   padding: 150px 0;
 }
 
@@ -454,6 +454,7 @@ header.mobCover {
 
 section.balls {
   background-image: url("../img/balls.jpg");
+  background-position: center bottom;
 }
 
 .bg-primary1 {
